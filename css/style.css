@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F4F0;
+}
+
+img {
+    width: 1120px;
+    border-radius: 28px;
+}
+
+/* Realterei para 30px, senti que o margin-top 85px como pede no Figma ia ficar muito espaçado do topo */
+main {
+    margin: 30px auto 140px auto;
+    max-width: 1120px;
+}
+
+.main-content {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.main-content h3 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #E1624F;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.main-content h1 {
+    color: #1B1B1B;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.main-content p {
+    color: #333333;
+    text-align: center;
+    margin: 24px 0 40px 0;
+    padding: 0 50px;
+}
